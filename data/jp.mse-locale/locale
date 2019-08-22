@@ -1,7 +1,7 @@
-﻿mse version: 2.0.0
-installer group: translations/japanese
+﻿mse version: 0.3.8
+installer group: translations/Japanese
 full name: 日本語 (Japanese)
-version: 2013-08-13
+version: 2009-01-15
 icon: jp.png
 
 ############################################################## Menu items
@@ -21,7 +21,6 @@ menu:
 	print preview:		印刷プレビュー...
 	print:				&印刷...	Ctrl+P
 	reload data:		再読込	Ctrl+F5
-	show profiler:		Show Profiler	Ctrl+F6
 	exit:				終了	Alt+F4
 	
 	edit:			&編集
@@ -61,8 +60,8 @@ menu:
 	symbols:			&記号	Ctrl+M
 	reminder text:		&注釈文	Ctrl+R
 	insert symbol:		記号の挿入
-	# spelling
-	no spelling suggestions:	(no suggestions)
+#_ADD	# spelling
+#_ADD	no spelling suggestions:	(no suggestions)
 
 	graph:			&グラフ
 	pie:				&パイ	1
@@ -78,8 +77,7 @@ menu:
 	style tab:			スタイル	F7
 	keywords tab:		&キーワード		F8
 	stats tab:			統計	F9
-	random pack tab:	&Random Packs
-	console tab:		&Console	Ctrl+F9
+#_ADD	random pack tab:	&Random Packs
 	
 	help:			&ヘルプ
 	index:				&索引...	F1
@@ -127,7 +125,6 @@ help:
 	print preview:		印刷のプレビュー画面を表示します。
 	print:				このセットを印刷します。
 	reload data:		全てのテンプレートファイルと現在のセットを再読み込みします。
-	show profiler:		Show the profiler window, with timings of (script) functions. Used for optimization.
 	exit:				Magic Set Editorを終了します。
 	
 	edit:
@@ -173,8 +170,8 @@ help:
 	italic:				選択したテキストを斜体(イタリック体)にします。
 	symbols:			選択したテキストをマナ・シンボルなどのシンボルにします。
 	reminder text:		選ばれたキーワード能力のための注釈文を表示させます。
-	# spelling
-	no spelling suggestions:	There are no suggestions for correcting this error
+#_ADD	# spelling
+#_ADD	no spelling suggestions:	There are no suggestions for correcting this error
 
 	graph:
 	pie:				を円グラフ、スライスのサイズのカードの数を示します
@@ -190,8 +187,7 @@ help:
 	style tab:			現在のカードのスタイルを変更します。
 	keywords tab:		現在のセットのためのキーワード能力を定義します。
 	stats tab:			現在のセットの統計を表示します。
-	random pack tab:	Try how the set works out in practice by generating random booster packs.
-	console tab:		Shows error messages and allows executing script commands.
+#_ADD	random pack tab:	Try how the set works out in practice by generating random booster packs.
 	
 	help:
 	index:				
@@ -199,14 +195,14 @@ help:
 	about:				
 	
 	# Cards panel
-	collapse notes:		Hide the card notes box
-	expand notes:		Show the card notes box
+#_ADD	collapse notes:		Hide the card notes box
+#_ADD	expand notes:		Show the card notes box
 	# Random pack panel
-	random seed:		Different packs will be generated each time.
-	fixed seed:			Using the same seed number gives the same 'random' packs.
-	seed:				Seed number for the random generator. Using the same seed number gives the same 'random' packs.
-	edit pack type:		Double click to edit pack type
-	number of packs:	The number of %ss to generate
+#_ADD	random seed:		Different packs will be generated each time.
+#_ADD	fixed seed:			Using the same seed number gives the same 'random' packs.
+#_ADD	seed:				Seed number for the random generator. Using the same seed number gives the same 'random' packs.
+#_ADD	edit pack type:		Double click to edit pack type
+#_ADD	number of packs:	The number of %ss to generate
 	
 	# Preferences
 	app language:
@@ -293,8 +289,7 @@ tool:
 	style tab:			スタイル
 	keywords tab:		キーワード
 	stats tab:			統計値
-	random pack tab:	Random
-	console tab:		Console
+#_ADD	random pack tab:	Random
 	
 	# symbol editor
 	store symbol:		使います
@@ -339,8 +334,7 @@ tooltip:
 	style tab:			
 	keywords tab:		
 	stats tab:			
-	random pack tab:	Random packs
-	console tab:		
+#_ADD	random pack tab:	Random packs
 	
 	new set:			新規作成
 	open set:			開く
@@ -417,10 +411,7 @@ tooltip:
 label:
 	# Cards tab
 	card notes:			カードメモ：
-	search cards:		Search for cards...
-	
 	# Keywords tab
-	search keywords:	Search for keywords...
 	keyword:			キーワード
 	match:				適合
 	mode:				モード
@@ -435,11 +426,11 @@ label:
 	styling options:	スタイル・オプション
 	
 	# Random pack panel
-	pack selection:		Pack selection
-	pack totals:		Totals
-	pack name:			Pack name
-	seed:				Seed
-	total cards:		Total
+#_ADD	pack selection:		Pack selection
+#_ADD	pack totals:		Totals
+#_ADD	pack name:			Pack name
+#_ADD	seed:				Seed
+#_ADD	total cards:		Total
 	
 	# Open dialogs
 	all files			全てのファイル
@@ -460,7 +451,7 @@ label:
 	
 	# Preferences
 	language:			言語
-	windows:			Open sets
+#_ADD	windows:			Open sets
 	app language:		ユーザー・インタフェースの言語：
 	card display:		カード表示
 	zoom:				&ズーム：
@@ -480,8 +471,8 @@ label:
 	columns:			列：
 	
 	# Card select / images export
-	select cards:			Cards to export
-	selected card count:	%s cards will be exported.
+#_ADD	select cards:			Cards to export
+#_ADD	selected card count:	%s cards will be exported.
 	select cards print:	あなたが印刷したいカードを選んでください
 	filename format:	&フォーマット： 
 	filename conflicts:	&取っ手を複写することのファイル名：
@@ -500,23 +491,23 @@ label:
 	original:			オリジナル：
 	result:				結果：
 	size:				サイズ
-	original size:			&Original Size
-	size to fit:			Size to &Fit
-	force to fit:			F&orce to Fit
-	custom size:			&Custom Size
+#_ADD	original size:			&Original Size
+#_ADD	size to fit:			Size to &Fit
+#_ADD	force to fit:			F&orce to Fit
+#_ADD	custom size:			&Custom Size
 	selection:			選択
-	selection left:			&Left
-	selection top:			&Top
-	selection width:		&Width
-	selection height:		&Height
+#_ADD	selection left:			&Left
+#_ADD	selection top:			&Top
+#_ADD	selection width:		&Width
+#_ADD	selection height:		&Height
 	zoom:				ズーム
-	fix aspect ratio:		Fix aspect ratio (width/height)
-	zoom amount:			Zoom
-	zoom amount x:			Zoom &X
-	zoom amount y:			Zoom &Y
-	zoom %:					%
+#_ADD	fix aspect ratio:		Fix aspect ratio (width/height)
+#_ADD	zoom amount:			Zoom
+#_ADD	zoom amount x:			Zoom &X
+#_ADD	zoom amount y:			Zoom &Y
+#_ADD	zoom %:					%
 	filter:				フィルター
-	sharpen filter:			&Sharpen filter
+#_ADD	sharpen filter:			&Sharpen filter
 	
 	# Auto replace
 	auto match:			適合
@@ -536,16 +527,16 @@ label:
 	package installed:		インストール
 	package installable:	正しくインストール
 	install package:		インストール
-	reinstall package:		reinstall
+#_ADD	reinstall package:		reinstall
 	upgrade package:		アップグレード
 	remove package:			取り外す
 
-	installed version:		Installed version:
-	installable version:	Latest version:
-	installer size:			Size:
-	installer status:		Status:
-	no version:				-
- 
+#_ADD	installed version:		Installed version:
+#_ADD	installable version:	Latest version:
+#_ADD	installer size:			Size:
+#_ADD	installer status:		Status:
+#_ADD	no version:				-
+#_ADD 
 ############################################################## Buttons/checkboxes/choices in the GUI
 button:
 	# Editor
@@ -561,13 +552,10 @@ button:
 	refer parameter:	パラメータを使用する...
 	
 	# Random pack panel
-	generate pack:		&Generate Pack
-	random seed:		&Random Seed
-	fixed seed:			&Fixed Seed
-	add custom pack:	Add &Custom Pack...
-	
-	# Console panel
-	evaluate:			&Evaluate
+#_ADD	generate pack:		&Generate Pack
+#_ADD	random seed:		&Random Seed
+#_ADD	fixed seed:			&Fixed Seed
+#_ADD	add custom pack:	Add &Custom Pack...
 	
 	# Welcome
 	new set:			新規作成
@@ -576,14 +564,13 @@ button:
 	last opened set:	直前のセット
 	
 	# Preferences
-	open sets in new window:	Open all sets in a new &window
+#_ADD	open sets in new window:	Open all sets in a new &window
 	select:				&選択...
 	browse:				&参照...
 	high quality:		&高品質の画像
 	show lines:			編集フィールドの線を表示する
 	show editing hints:	編集の際にボックスとヒントを表示する
 	zoom export:		エクスポートする際にズームと回転の設定を使用する。
-	spellcheck enabled:	Show &spelling errors on cards
 	check now:			&今のチェック
 	always:							常に行う
 	if internet connection exists:	インターネットに接続していれば
@@ -596,10 +583,10 @@ button:
 	hide:				&非表示
 	
 	# Card select
-	export entire set:				Entire set
-	export generated packs:			Generated packs
-	export custom cards selection:	Custom selection
-	select cards:		&Select Cards...
+#_ADD	export entire set:				Entire set
+#_ADD	export generated packs:			Generated packs
+#_ADD	export custom cards selection:	Custom selection
+#_ADD	select cards:		&Select Cards...
 	select all:			&すべてを選択
 	select none:		&選択の解除
 	overwrite:			古いファイルを上書き
@@ -623,11 +610,11 @@ button:
 	don't install package:	&はインストールしないで
 	install package:		&インストール
 	upgrade package:		&アップグレード
-	reinstall package:		Re&install
+#_ADD	reinstall package:		Re&install
 	remove package:			&取り外す
-	install group:			&Install All
-	upgrade group:			&Upgrade All
-	remove group:			&Remove All
+#_ADD	install group:			&Install All
+#_ADD	upgrade group:			&Upgrade All
+#_ADD	remove group:			&Remove All
 
 ############################################################## Titles in the GUI
 title:
@@ -658,8 +645,8 @@ title:
 	select cards export:選択したカードのエクスポート
 	# slice
 	slice image:		画像編集
-	# pack
-	custom pack:		Custom Pack Type
+#_ADD	# pack
+#_ADD	custom pack:		Custom Pack Type
 	# print
 	print preview:		印刷プレビュー
 	# export
@@ -692,7 +679,7 @@ action:
 	cut:				カット
 	paste:				ペースト
 	auto replace:		オートマチックな取って代わること
-	correct:			Spelling Correction
+#_ADD	correct:			Spelling Correction
 	# Choice/color editors
 	change:				変化 %s
 	
@@ -772,7 +759,7 @@ error:
 		スタイルシート及びセットは同じゲームを参照しないで、これはスタイルシートファイルのエラー〔誤り〕です
 	unsupported field type:								サポートされていないフィールドタイプ： '%s'
 	unsupported fill type:								サポートされていないいっぱいタイプ： '%s'
-	unrecognized value:									認識されていない価値〔価格〕： '%s', defaulting to %s
+	unrecognized value:									認識されていない価値〔価格〕： '%s'
 	expected key:										期待されているキー： '%s'
 	aborting parsing:									読書を流産させて、遭われた致命的エラー
 	newer version:
@@ -781,7 +768,8 @@ error:
 		あなたは最新のバージョンにアップグレードするように勧められます。
 		http::を訪問してください　/　magicseteditor.sourceforge.net　/
 	word list type not found:			リストタイプという語　%s　(<word-list>タグから)見つからなかった
-	pack type not found:				The pack type "%s" was not found (from a pack type)
+#_ADD	pack item not found:				The pack item "%s" was not found (from a pack type)
+#_ADD	pack type not found:				The pack type "%s" was not found (from a pack type)
 	
 	# Update checking
 	checking updates failed:			アップデートが失敗したか調べます。
@@ -790,11 +778,11 @@ error:
 	# Stats panel
 	dimension not found:				ディメンションはありません '%s'
 
-	# Random packs
-	pack type duplicate name:
+#_ADD	# Random packs
+#_ADD	pack type duplicate name:
 		There is already a pack type named '%s'.
 		Please choose a different name.
-	
+#_ADD	
 	# Package update window
 #	checking updates:					アップデートを調べます。
 	can't download installer:
@@ -827,17 +815,17 @@ type:
 	boolean:		ブールです
 	color:			色
 	image:			イメージ
-	date:			date
+#_ADD	date:			date
 	nil:			何も
 	
 	# Object types
-	package:		package
-	locale:			translation
+#_ADD	package:		package
+#_ADD	locale:			translation
 	game:			ゲーム
 	set:			セット
 	stylesheet:		スタイルシート
 	export template:輸出テンプレート
-	symbol:			symbol
+#_ADD	symbol:			symbol
 	card:			カード
 	cards:			カード
 	field:			フィールド
@@ -845,7 +833,7 @@ type:
 	value:			値
 	keyword:		キーワード
 	keywords:		キーワード
-	pack:			pack type
+#_ADD	pack:			pack type
 	
 	# Symbol editor shapes
 	shape:			形
@@ -888,7 +876,7 @@ package:
 		# note: reminder/shortcut must start with a space, otherwise it is used as a shortcut
 		#       so typing T *anywhere* would insert a symbol (which would be bad)
 		menu item T:			タップ・シンボル(&T)	 T
-		menu item Q:			&Untap symbol	 Q
+#_ADD		menu item Q:			&Untap symbol	 Q
 		menu item W:			白マナ(&W)	 W
 		menu item U:			青マナ(&U)	 U
 		menu item B:			黒マナ(&B)	 B
@@ -898,7 +886,7 @@ package:
 		menu item X:			不特定マナ・シンボル(&X)	 X
 		menu item Y:			不特定マナ・シンボル(&Y)	 Y
 		menu item Z:			不特定マナ・シンボル(&Z)	 Z
-		menu item I:			&Infinite mana	I
+#_ADD		menu item I:			&Infinite mana	I
 		menu item colorless:	無色マナ(&C)...
 		title colorless:		無色マナ(&C)
 		message colorless:		任意の数の無色マナ

@@ -1,67 +1,51 @@
-﻿mse version: 2.0.0
-version: 2014-10-10
+﻿mse version: 0.3.7
+version: 2014-04-11
 short name: Text Replacements
-position hint: 001
-icon: n1.png
+position hint: 003
+icon: dot.png
 installer group: Yugioh/Symbol Fonts/Text Replacements
 # Symbol font for missing characters
 
-depends on:
-	package: yugioh-standard-levels.mse-symbol-font
-	version: 2007-10-27
-	
 image font size: 16
 horizontal space: 2
-
-symbol:
-	code: @
-	image: n2.png
-symbol:
-	code: #
-	image: n3.png
-symbol:
-	code: $
-	image: n4.png
-symbol:
-	code: %
-	image: n5.png
-symbol:
-	code: |
-	image: n1.png
-symbol:
-	code: ^
-	image: space.png
-symbol:
-	code: &
-	image: infinity.png
-
 symbol:
 	code: [
-	image: { "/yugioh-standard-levels.mse-symbol-font/leftbracket_"+get_lang()+".png" }
+	image: leftbracket.png
 symbol:
 	code: ]
-	image: { "/yugioh-standard-levels.mse-symbol-font/rightbracket_"+get_lang()+".png" }
+	image: rightbracket.png
+symbol:
+	code: @
+	image: infinity.png
+	image font size: 25
 symbol:
 	code: ?
 	image: qmark.png
+	image font size: 32
+symbol:
+	code: Ｘ
+	image: xmark.png
+	image font size: 22
 symbol:
 	code: *
 	image: dot.png
-# symbol:
-# 	code: =
-# 	image: dot2.png
-	
+symbol:
+	code: Ｏ
+	image: omote1.png
+	image font size: 25
+symbol:
+	code: Ｒ
+	image: reverse1.png
+	image font size: 25
+
 ##############################################################
 # Insert-symbol menu
 insert symbol menu:
 	item: [
 	item: ]
-# 	item: =
-	item: ^
+	item: @
 	item: ?
 	item: *
-	item: |
-	item: @
-	item: #
-	item: $
-	item: %
+	item: Ｘ
+	item: Ｏ
+	item: Ｒ

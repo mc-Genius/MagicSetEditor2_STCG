@@ -1,7 +1,7 @@
-﻿mse version: 2.0.0
-installer group: translations/italiano
+﻿mse version: 0.3.8
+installer group: translations/Italiano
 full name: Italiano
-version: 2013-08-13
+version: 2009-02-02
 icon: it.png
 
 ############################################################## Menu items
@@ -21,7 +21,6 @@ menu:
 	print preview:		Anteprima di S&tampa...
 	print:				&Stampa...	Ctrl+P
 	reload data:		Ricarica dati	Ctrl+F5
-	show profiler:		Show Profiler	Ctrl+F6
 	exit:				E&sci	Alt+F4
 	
 	edit:			&Modifica
@@ -79,7 +78,6 @@ menu:
 	keywords tab:		&Parole chiave	F8
 	stats tab:			S&tatistiche	F9
 	random pack tab:	&Buste casuali
-	console tab:		&Console	Ctrl+F9
 	
 	help:			&Aiuto
 	index:				&Indice...	F1
@@ -127,7 +125,6 @@ help:
 	print preview:		Anteprima di stampa
 	print:				Stampa carte da questo set
 	reload data:		Ricarica tutti i template e il set.
-	show profiler:		Show the profiler window, with timings of (script) functions. Used for optimization.
 	exit:				Esce da Magic Set Editor; chiede se salvare il set
 	
 	edit:
@@ -191,7 +188,6 @@ help:
 	keywords tab:		Definisci parole chiave aggiuntive per questo set
 	stats tab:			Mostra le statistiche delle carte del set
 	random pack tab:	Controlla se il set funziona nella pratica generando buste casuali.
-	console tab:		Shows error messages and allows executing script commands.
 	
 	help:
 	index:				
@@ -212,8 +208,7 @@ help:
 	app language:
 		Nota: Devi riavviare MSE perchè le modifiche abbiano effetto.
 	zoom export:
-		(Se disattivato, le carte sono esportate e 
-		copiate al 100% della grandezza e con orientamento normale)
+		(Se disattivato, le carte sono esportate e copiate al 100% della grandezza e con orientamento normale)
 	
 	# apprentice export
 	set code:			Un set code è un codice di due caratteri usato da Apprentice come riferimento ad un set.
@@ -294,7 +289,6 @@ tool:
 	keywords tab:		Keywords
 	stats tab:			Statistiche
 	random pack tab:	Buste
-	console tab:		Console
 	
 	# symbol editor
 	store symbol:		Usa
@@ -340,7 +334,6 @@ tooltip:
 	keywords tab:		
 	stats tab:			
 	random pack tab:	Buste casuali
-	console tab:		
 	
 	new set:			Nuovo set
 	open set:			Apri set
@@ -417,10 +410,7 @@ tooltip:
 label:
 	# Cards tab
 	card notes:			Note carta:
-	search cards:		Search for cards...
-	
 	# Keywords tab
-	search keywords:	Search for keywords...
 	keyword:			Parole chiave
 	match:				Nome
 	mode:				Tipo
@@ -471,8 +461,7 @@ label:
 	check at startup:	Controlla aggiornamenti all'avvio
 	checking requires internet:
 		Controllare gli aggiornamenti richiede una connessione a Internet.
-		Se non viene trovata nessuna connessione 
-		a Internet gli aggiornamenti non vengono controllati.
+		Se non viene trovata nessuna connessione a Internet gli aggiornamenti non vengono controllati.
 		
 		Non sono raccolte informazioni quando si controllano gli aggiornamenti.
 	
@@ -567,9 +556,6 @@ button:
 	fixed seed:			Seme &fisso
 	add custom pack:	Aggiungi Busta personalizzata... (&C)
 	
-	# Console panel
-	evaluate:			&Evaluate
-	
 	# Welcome
 	new set:			Nuovo set
 	open set:			Apri set
@@ -584,7 +570,6 @@ button:
 	show lines:			Mostra &linee attorno ai campi
 	show editing hints:	Mostra suggerimenti per le &modifiche
 	zoom export:		usa le impostazioni di zoom e rotazione quando e&sporti
-	spellcheck enabled:	Show &spelling errors on cards
 	check now:			Controlla ora (&N)
 	always:							Sempre
 	if internet connection exists:	Se è presente una connessione a Internet
@@ -773,7 +758,7 @@ error:
 		lo stile ed il set non si riferiscono allo stesso gioco, questo è un errore nel file dello stile
 	unsupported field type:								Tipo di campo non supportato: '%s'
 	unsupported fill type:								Tipo di riempimento non supportato: '%s'
-	unrecognized value:									Valore non riconosciuto: '%s', defaulting to %s
+	unrecognized value:									Valore non riconosciuto: '%s'
 	expected key:										Prevista key: '%s'
 	aborting parsing:									Fatal errors encountered, aborting reading.
 	newer version:
@@ -783,6 +768,7 @@ error:
 		Si raccomanda di aggiornare il programma alla versione più recente.
 		Visita http:://magicseteditor.sourceforge.net/
 	word list type not found:			The word list type %s was not found (from a <word-list> tag)
+	pack item not found:				Oggetto "%s" non trovato (da un pacchetto)
 	pack type not found:				Tipo "%s" non trovato (da un pacchetto)
 
 	# Update checking

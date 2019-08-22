@@ -1,99 +1,169 @@
-﻿mse version: 2.0.0
-version: 2014-10-10
-short name: Level Symbols
+﻿mse version: 0.3.8
+version: 2014-04-11
+short name: Standard
 position hint: 001
 icon: star.png
-installer group: Yugioh/Symbol Fonts/Level Symbols
+installer group: Yugioh/Symbol Fonts/Standard
 # Symbol font for level symbols
 
-image font size: 16
-horizontal space: 3
-
+horizontal space: 2.85
 symbol:
-	code: %
-	image: { if is_spell_card() then get_lang_ex()+"mark/continuousspell.png" else get_lang_ex()+"mark/continuoustrap.png" }
-	enabled: { st_has_text() }
+	code: 0
+	image: stage/0.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: !
-	image: { get_lang_ex()+"mark/countertrap.png" }
-	enabled: { st_has_text() }
+	code: 1
+	image: stage/1.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: +
-	image: { get_lang_ex()+"mark/equipspell.png" }
-	enabled: { st_has_text() }
+	code: 2
+	image: stage/2.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: &
-	image: { get_lang_ex()+"mark/fieldspell.png" }
-	enabled: { st_has_text() }
+	code: 3
+	image: stage/3.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: $
-	image: { get_lang_ex()+"mark/quickspell.png" }
-	enabled: { st_has_text() }
+	code: 4
+	image: stage/4.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: #
-	image: { get_lang_ex()+"mark/ritualspell.png" }
-	enabled: { st_has_text() }
+	code: 5
+	image: stage/5.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
-	code: ^
-	image: { if is_spell_card() then get_lang_ex()+"mark/normalspell.png" else get_lang_ex()+"mark/normaltrap.png" }
-	enabled: { st_has_text() }
+	code: 6
+	image: stage/6.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
+symbol:
+	code: 7
+	image: stage/7.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
+symbol:
+	code: 8
+	image: stage/8.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
+symbol:
+	code: 9
+	image: stage/9.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
+symbol:
+	code: A
+	image: stage/10.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
+symbol:
+	code: C
+	image: stage/12.png
+	enabled: {card.card_type == "evolute monster" or card.card_type=="conjoint spell card" or card.card_type == "conjoint trap card" or card.card_type == "evolute conjoint monster"}
+	image font size: 33
 symbol:
 	code: %
 	image: continuous.png
-	image font size: 44
+	image font size: 85
 symbol:
 	code: !
 	image: counter.png
-	image font size: 44
+	image font size: 85
 symbol:
 	code: +
 	image: equipment.png
-	image font size: 44
+	image font size: 85
 symbol:
 	code: &
 	image: field.png
-	image font size: 44
+	image font size: 85
 symbol:
 	code: $
 	image: quickplay.png
-	image font size: 44
+	image font size: 85
 symbol:
 	code: #
 	image: ritual.png
-	image font size: 44
-	
+	image font size: 85
 symbol:
 	code: [
-	image: { "leftbracket_"+get_lang()+".png" }
+	image: leftbracket.png
 	image font size: 28
 symbol:
 	code: ]
-	image: { "rightbracket_"+get_lang()+".png" }
+	image: rightbracket.png
 	image font size: 28
 symbol:
 	code: *
-	image: dstar.png
-	enabled: {card.card_type == "dark synchro monster"}
-	image font size: 16.5
+	image: uestar.png
+	enabled: {card.rarity=="ultimate rare" and card.card_type=="xyz monster"}
+	image font size: 15.5
 symbol:
 	code: *
-	image: xyzstar.png
-	enabled: {card.card_type == "xyz monster"}
-	image font size: 16.5
+	image: ustar.png
+	enabled: {card.rarity=="ultimate rare"}
+	image font size: 15.5
+symbol:
+	code: *
+	image: estar.png
+	enabled: {card.card_type=="xyz monster"}
+	image font size: 17
+symbol:
+	code: *
+	image: estar.png
+	enabled: {card.card_type=="pendulum xyz monster"}
+	image font size: 17
+symbol:
+	code: *
+	image: estar.png
+	enabled: {card.card_type=="xyz conjoint monster"}
+	image font size: 17
+symbol:
+	code: *
+	image: dstar.png
+	enabled: {card.card_type=="pendulum dark synchro monster"}
+	image font size: 13.5
+symbol:
+	code: *
+	image: dstar.png
+	enabled: {card.card_type=="dark synchro monster"}
+	image font size: 13.5
+symbol:
+	code: *
+	image: TP_Level2.png
+	enabled: {card.card_type=="time leap monster"}
+	image font size: 17
 symbol:
 	code: *
 	image: star.png
-	image font size: 16.5
+	image font size: 17
 
 ##############################################################
 # Insert-symbol menu
 insert symbol menu:
+	item: 0
+	item: 1
+	item: 2
+	item: 3
+	item: 4
+	item: 5
+	item: 6
+	item: 7
+	item: 8
+	item: 9
+	item: A
+	item: C
 	item: %
 	item: !
 	item: +
 	item: &
 	item: $
-	item: ^
 	item: #
 	item: [
 	item: ]

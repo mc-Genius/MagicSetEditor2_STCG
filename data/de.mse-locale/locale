@@ -1,7 +1,7 @@
-﻿mse version: 2.0.0
-installer group: translations/deutsch
+﻿mse version: 0.3.8
+installer group: translations/Deutsch
 full name: Deutsch
-version: 2013-08-13
+version: 2009-01-15
 icon: de.png
 
 ############################################################## Menu items
@@ -21,7 +21,6 @@ menu:
 	print preview:		Druckvorschau...
 	print:				&Drucken...	Ctrl+P
 	reload data:		Daten neu laden	Ctrl+F5
-	show profiler:		Show Profiler	Ctrl+F6
 	exit:				Beenden	Alt+F4
 
 	edit:			&Bearbeiten
@@ -61,8 +60,8 @@ menu:
 	symbols:			&Symbole	Ctrl+M
 	reminder text:		&Reminder Text	Ctrl+R
 	insert symbol:		Sy&mbol einfügen
-	# spelling
-	no spelling suggestions:	(no suggestions)
+#_ADD	# spelling
+#_ADD	no spelling suggestions:	(no suggestions)
 	
 	graph:			&Diagramm
 	pie:				&Kreis	1
@@ -79,7 +78,6 @@ menu:
 	keywords tab:		Fähigkeiten	F8
 	stats tab:			S&tatistik	F9
 	random pack tab:		&Zufällige Packs
-	console tab:		&Console	Ctrl+F9
 	
 	help:			&Hilfe
 	index:				&Index...	F1
@@ -127,7 +125,6 @@ help:
 	print preview:		Zeigt an, wie die Bilder gedruckt werden
 	print:				Druckt die Bilder der Edition
 	reload data:		Läd alle Daten neu.
-	show profiler:		Show the profiler window, with timings of (script) functions. Used for optimization.
 	exit:				Beendet Magic Set Editor
 	
 	edit:
@@ -173,8 +170,8 @@ help:
 	italic:				Formatiert den Text Kursiv
 	symbols:			Formatiert den Text als Symbol
 	reminder text:		Zeige den Reminder-Text für die gewählte Fähigkeit an
-	# spelling
-	no spelling suggestions:	There are no suggestions for correcting this error
+#_ADD	# spelling
+#_ADD	no spelling suggestions:	There are no suggestions for correcting this error
 	
 	graph:
 	pie:				Ein Kreisdiagramm, die Größe der Kreise zeigt die Anzahl der Karten an
@@ -191,7 +188,6 @@ help:
 	keywords tab:		Füge Fähigkeiten für diese Edition hinzu
 	stats tab:			Zeigt eine Statistik über diese Edition an
 	random pack tab:	Testet wie das Set funktionieren würde, indem es ufällige Booster Packs erstellt.
-	console tab:		Shows error messages and allows executing script commands.
 	
 	help:
 	index:				
@@ -205,8 +201,8 @@ help:
 	random seed:		Erstellt jedes mal andere Packs.
 	fixed seed:			Indem man dieselbe Nummer verwendet, bekommt man dieselben "zufälligen" Packs.
 	seed:				Nummer für den Zufallsgenerator. Indem man dieselbe Nummer verwendet, bekommt man dieselben "zufälligen" Packs.
-	edit pack type:		Double click to edit pack type
-	number of packs:	The number of %ss to generate
+#_ADD	edit pack type:		Double click to edit pack type
+#_ADD	number of packs:	The number of %ss to generate
 	
 	# Preferences
 	app language:
@@ -294,7 +290,6 @@ tool:
 	keywords tab:		Fähigkeiten
 	stats tab:			Statistik
 	random pack tab:	Zufällige Packs
-	console tab:		Console
 	
 	# symbol editor
 	store symbol:		Übernehmen
@@ -340,7 +335,6 @@ tooltip:
 	keywords tab:		Fähigkeiten
 	stats tab:		Statistiken		
 	random pack tab:	Zufällige Packs
-	console tab:		
 	
 	new set:			Neue Edition
 	open set:			Edition öffnen
@@ -417,10 +411,7 @@ tooltip:
 label:
 	# Cards tab
 	card notes:			Kartenanmerkung:
-	search cards:		Search for cards...
-	
 	# Keywords tab
-	search keywords:	Search for keywords...
 	keyword:			Schlagwort
 	match:				Fähigkeit
 	mode:				Modus
@@ -437,7 +428,7 @@ label:
 	# Random pack panel
 	pack selection:		Pack wählen
 	pack totals:		Packs gesamt
-	pack name:			Pack name
+#_ADD	pack name:			Pack name
 	seed:				Nummer
 	total cards:		Gesamtkarten
 	
@@ -460,7 +451,7 @@ label:
 	
 	# Preferences
 	language:			Sprache
-	windows:			Open sets
+#_ADD	windows:			Open sets
 	app language:		Sprache der Benutzeroberfläche:
 	card display:		Kartenaussehen
 	zoom:				&Zoom:
@@ -536,16 +527,16 @@ label:
 	package installed:		Installiert
 	package installable:	Nicht installiert
 	install package:		Installieren
-	reinstall package:		reinstall
+#_ADD	reinstall package:		reinstall
 	upgrade package:		Upgraden
 	remove package:			Entfernen
 
-	installed version:		Installed version:
-	installable version:	Latest version:
-	installer size:			Size:
-	installer status:		Status:
-	no version:				-
- 
+#_ADD	installed version:		Installed version:
+#_ADD	installable version:	Latest version:
+#_ADD	installer size:			Size:
+#_ADD	installer status:		Status:
+#_ADD	no version:				-
+#_ADD 
 ############################################################## Buttons/checkboxes/choices in the GUI
 button:
 	# Editor
@@ -564,10 +555,7 @@ button:
 	generate pack:		&Pack generieren
 	random seed:		&Zufällige Nummer
 	fixed seed:			&Eingestellte Nummer
-	add custom pack:	Add &Custom Pack...
-	
-	# Console panel
-	evaluate:			&Evaluate
+#_ADD	add custom pack:	Add &Custom Pack...
 	
 	# Welcome
 	new set:			Neue Edition
@@ -576,14 +564,13 @@ button:
 	last opened set:	Zuletzt geöffnet:
 	
 	# Preferences
-	open sets in new window:	Open all sets in a new &window
+#_ADD	open sets in new window:	Open all sets in a new &window
 	select:				&OK...
 	browse:				&Durchsuchen...
 	high quality:		&High-quality-Rendern
 	show lines:			Hilfslinien anzeigen
 	show editing hints:	Zeigt Hilfen beim B&earbeiten an
 	zoom export:		Zoom- und Dreheinstellungen beim Export verwenden
-	spellcheck enabled:	Show &spelling errors on cards
 	check now:			&Jetzt überprüfen
 	always:							Immer (empfohlen)
 	if internet connection exists:	Wenn Internetverbindung besteht
@@ -623,7 +610,7 @@ button:
 	don't install package:	&Nicht installieren
 	install package:		&Installieren
 	upgrade package:		&Upgraden
-	reinstall package:		Re&install
+#_ADD	reinstall package:		Re&install
 	remove package:			&Entfernen
 	install group:			&Installiere alle
 	upgrade group:			&Upgrade alle
@@ -658,8 +645,8 @@ title:
 	select cards export:Wählen die Export-Karten
 	# slice
 	slice image:		Bildeinstellungen
-	# pack
-	custom pack:		Custom Pack Type
+#_ADD	# pack
+#_ADD	custom pack:		Custom Pack Type
 	# print
 	print preview:		Druckvorschau
 	# export
@@ -692,7 +679,7 @@ action:
 	cut:				Ausschneiden
 	paste:				Einfügen
 	auto replace:		Automatisches Ersetzen
-	correct:			Spelling Correction
+#_ADD	correct:			Spelling Correction
 	# Choice/color editors
 	change:				Ändere %s
 	
@@ -772,7 +759,7 @@ error:
 		Stylesheet und Edition passen nicht zum gleichen Spiel. Fehler im Stylesheet.
 	unsupported field type:								Nicht unterstützter Feldtyp: '%s'
 	unsupported fill type:								Nicht unterstützer Typ: '%s'
-	unrecognized value:									Unbekannter Wert: '%s', defaulting to %s
+	unrecognized value:									Unbekannter Wert: '%s'
 	expected key:										Taste '%s' erwartet
 	aborting parsing:									Fataler Error.
 	newer version:
@@ -782,7 +769,8 @@ error:
 		Bitte laden Sie sich die neuste Version unter 
 		http:://magicseteditor.sourceforge.net/ herunter.
 	word list type not found:			%s ist nicht bei <Wortliste> gelistet
-	pack type not found:				The pack type "%s" was not found (from a pack type)
+	pack item not found:				Der Pack-Gegenstand "%s" wurde nicht gefunden
+#_ADD	pack type not found:				The pack type "%s" was not found (from a pack type)
 	
 	# Update checking
 	checking updates failed:			Update schlug fehl.
@@ -791,11 +779,11 @@ error:
 	# Stats panel
 	dimension not found:				Keine Statistikdimension '%s'
 	
-	# Random packs
-	pack type duplicate name:
+#_ADD	# Random packs
+#_ADD	pack type duplicate name:
 		There is already a pack type named '%s'.
 		Please choose a different name.
-	
+#_ADD	
 	# Package update window
 #	checking updates:					Suche nach Updates.
 	can't download installer:
@@ -830,7 +818,7 @@ type:
 	boolean:		boolean
 	color:			color
 	image:			image
-	date:			date
+#_ADD	date:			date
 	nil:			nothing
 	
 	# Object types
@@ -848,7 +836,7 @@ type:
 	value:			value
 	keyword:		keyword
 	keywords:		keywords
-	pack:			pack type
+#_ADD	pack:			pack type
 	
 	# Symbol editor shapes
 	shape:			shape
